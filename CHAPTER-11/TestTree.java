@@ -16,7 +16,7 @@ public class TestTree {
 		System.out.println(tree);
 	}
 }
-class Book implement Comparable<Book>{
+class Book implements Comparable<Book>{
 	String title;
 	public Book(String t) {
 		title = t;
