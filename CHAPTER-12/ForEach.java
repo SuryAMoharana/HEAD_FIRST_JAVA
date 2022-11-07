@@ -3,11 +3,11 @@ import java.util.stream.*;
 
 class ForEach{
 	public static void main(String[] args) {
-		List<Integer> numbers=List.of(1,2,3,4,5);
+		List<String> strings=List.of("I","am","a","List");
 
-		Stream<Integer> stream=numbers.stream();
+		Stream<String> stream=strings.stream().sorted((a,b)->a.compareToIgnoreCase(b));
 
-		System.out.println(Arrays.toString(stream));
+		System.out.println(stream);
 
 	}
 }
