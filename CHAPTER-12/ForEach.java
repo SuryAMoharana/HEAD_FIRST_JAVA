@@ -2,9 +2,10 @@ import java.util.*;
 
 class ForEach{
 	public static void main(String[] args) {
-		List<String> colors=List.of("blue","black","red");
+		List<Integer> numbers=List.of(1,2,3,4,5);
 
-		colors.forEach(clr -> System.out.println(clr));
+		for(Integer num:numbers)
+		System.out.println(num);
 
 	}
 }
